@@ -19,7 +19,7 @@ function App() {
 
   const fetchMovie = async (movie) => {
     const movies = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=6d071c82&s=${movie}`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=6d071c82&s=${movie}`
     );
     const res = await movies.json();
     console.log(res);
