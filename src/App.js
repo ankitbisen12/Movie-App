@@ -73,7 +73,7 @@ function App() {
       {movies?.length > 0 ? (
         <div className="mt-20 lg:mt-32">
           <div className="m-auto">
-            <div className="md:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+            <div className="md:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10">
               {movies.map((movie) => (
                 <MovieCard key={movie.Title} movie={movie} />
               ))}
